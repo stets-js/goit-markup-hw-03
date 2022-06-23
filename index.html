@@ -21,7 +21,7 @@
   </head>
   <body>
     <!--Шапка страницы-->
-    <header>
+    <header class="header">
       <div class="container header-nav">
         <nav class="header-nav-main">
           <a href="./index.html" class="logo" lang="en">
@@ -29,18 +29,24 @@
           >
           <ul class="nav-list">
             <li class="item">
-              <a href="./index.html" class="current">Студия</a>
+              <a class="current header-nav-link" href="./index.html">Студия</a>
             </li>
-            <li class="item"><a href="./portfolio.html">Портфолио</a></li>
-            <li class="item"><a href="./contacts.html">Контакты</a></li>
+            <li class="item">
+              <a class="header-nav-link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item">
+              <a class="header-nav-link" href="./contacts.html">Контакты</a>
+            </li>
           </ul>
         </nav>
         <ul class="contact-list">
           <li class="item">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="item">
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -48,7 +54,7 @@
     <!--Основной контент-->
     <main>
       <!--Герой-->
-      <section class="section">
+      <section class="section hero">
         <div class="container hero">
           <h1>Эффективные решения<br />для вашего бизнеса</h1>
           <button type="button" class="hero-button">Заказать услугу</button>

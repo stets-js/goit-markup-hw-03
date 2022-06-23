@@ -54,11 +54,14 @@ body {
 }
 
 /********************** Header *****************************/
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-nav,
 .header-nav-main {
   display: flex;
   align-items: center;
-  padding: 25 0;
 }
 
 .logo {
@@ -82,6 +85,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-left: 93px;
+}
+.header-nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-list .item + .item {
@@ -122,16 +130,14 @@ body {
 .contact-list .item,
 .nav-list .item {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.header-nav {
-  border-bottom: 1px solid #ececec;
 }
 
 /************************* MAIN ***************************/
 /* временный фон HERO */
+.section.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .hero {
   text-align: center;
 }
@@ -191,6 +197,9 @@ body {
 }
 
 /***** activity *****/
+.section.activity {
+  padding-top: 0;
+}
 .activity h2 {
   color: var(--title-text);
 
@@ -244,11 +253,10 @@ body {
 
 .team .item {
   background-color: #ffffff;
-  border-bottom: ;
 }
 
-.team-list .team-description {
-  margin: 30px auto;
+.team-description {
+  padding: 30px 0px;
 }
 
 /*************************** footer *****************************/
@@ -306,7 +314,7 @@ footer {
 .button-list-portfolio {
   padding-left: 0;
   text-align: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .button-list-portfolio .item + .item {
   margin-left: 8px;
@@ -324,6 +332,7 @@ footer {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  padding: 6px 22px;
 }
 .button-list-portfolio li {
   list-style-type: none;

@@ -21,7 +21,7 @@
   </head>
   <body>
     <!--Шапка страницы-->
-    <header>
+    <header class="header">
       <div class="container header-nav">
         <nav class="header-nav-main">
           <a href="./index.html" class="logo" lang="en">
@@ -29,12 +29,16 @@
           >
           <ul class="nav-list">
             <li class="item">
-              <a href="./index.html">Студия</a>
+              <a class="header-nav-link" href="./index.html">Студия</a>
             </li>
             <li class="item">
-              <a href="./portfolio.html" class="current">Портфолио</a>
+              <a href="./portfolio.html" class="current header-nav-link"
+                >Портфолио</a
+              >
             </li>
-            <li class="item"><a href="./contacts.html">Контакты</a></li>
+            <li class="item">
+              <a class="header-nav-link" href="./contacts.html">Контакты</a>
+            </li>
           </ul>
         </nav>
         <ul class="contact-list">
@@ -51,106 +55,104 @@
       <section class="section">
         <div class="container">
           <h1 class="title-portfolio">Наши работы</h1>
-          <section>
-            <ul class="button-list-portfolio">
-              <li class="item"><button type="button">Все</button></li>
-              <li class="item"><button type="button">Веб-сайты</button></li>
-              <li class="item"><button type="button">Приложения</button></li>
-              <li class="item"><button type="button">Дизайн</button></li>
-              <li class="item"><button type="button">Маркетинг</button></li>
-            </ul>
+          <ul class="button-list-portfolio">
+            <li class="item"><button type="button">Все</button></li>
+            <li class="item"><button type="button">Веб-сайты</button></li>
+            <li class="item"><button type="button">Приложения</button></li>
+            <li class="item"><button type="button">Дизайн</button></li>
+            <li class="item"><button type="button">Маркетинг</button></li>
+          </ul>
 
-            <ul class="works-portfolio">
-              <li class="item">
-                <img
-                  src="./images/work1.jpg"
-                  alt="Веб-сайт Технокряк"
-                  width="370"
-                />
-                <div class="card-description">
-                  <h2>Технокряк</h2>
-                  <p>Веб-сайт</p>
-                </div>
-              </li>
-              <li class="item">
-                <img
-                  src="./images/work2.jpg"
-                  alt="Постер New Orlean vs Golden Star"
-                  width="370"
-                />
-                <div class="card-description">
-                  <h2>Постер New Orlean vs Golden Star</h2>
-                  <p>Дизайн</p>
-                </div>
-              </li>
-              <li class="item">
-                <img
-                  src="./images/work3.jpg"
-                  alt="Ресторан Seafood"
-                  width="370"
-                />
-                <div class="card-description">
-                  <h2>Ресторан Seafood</h2>
-                  <p>Приложение</p>
-                </div>
-              </li>
-              <li class="item">
-                <img src="./images/work4.jpg" alt="Проект Prime" width="370" />
-                <div class="card-description">
-                  <h2>Проект Prime</h2>
-                  <p>Маркетинг</p>
-                </div>
-              </li>
-              <li class="item">
-                <img src="./images/work5.jpg" alt="Проект Boxes" width="370" />
+          <ul class="works-portfolio">
+            <li class="item">
+              <img
+                src="./images/work1.jpg"
+                alt="Веб-сайт Технокряк"
+                width="370"
+              />
+              <div class="card-description">
+                <h2>Технокряк</h2>
+                <p>Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./images/work2.jpg"
+                alt="Постер New Orlean vs Golden Star"
+                width="370"
+              />
+              <div class="card-description">
+                <h2>Постер New Orlean vs Golden Star</h2>
+                <p>Дизайн</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./images/work3.jpg"
+                alt="Ресторан Seafood"
+                width="370"
+              />
+              <div class="card-description">
+                <h2>Ресторан Seafood</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="./images/work4.jpg" alt="Проект Prime" width="370" />
+              <div class="card-description">
+                <h2>Проект Prime</h2>
+                <p>Маркетинг</p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="./images/work5.jpg" alt="Проект Boxes" width="370" />
 
-                <div class="card-description">
-                  <h2>Проект Boxes</h2>
-                  <p>Приложение</p>
-                </div>
-              </li>
-              <li class="item">
-                <img
-                  src="./images/work6.jpg"
-                  alt="Веб-сайт Inspiration has no Borders"
-                  width="370"
-                />
-                <div class="card-description">
-                  <h2>Inspiration has no Borders</h2>
-                  <p>Веб-сайт</p>
-                </div>
-              </li>
-              <li class="item">
-                <img
-                  src="./images/work7.jpg"
-                  alt="Издание Limited Edition"
-                  width="370"
-                />
-                <div class="card-description">
-                  <h2>Издание Limited Edition</h2>
-                  <p>Дизайн</p>
-                </div>
-              </li>
-              <li class="item">
-                <img src="./images/work8.jpg" alt="Проект LAB" width="370" />
-                <div class="card-description">
-                  <h2>Проект LAB</h2>
-                  <p>Маркетинг</p>
-                </div>
-              </li>
-              <li class="item">
-                <img
-                  src="./images/work9.jpg"
-                  alt="Growing Business"
-                  width="370"
-                />
-                <div class="card-description">
-                  <h2>Growing Business</h2>
-                  <p>Приложение</p>
-                </div>
-              </li>
-            </ul>
-          </section>
+              <div class="card-description">
+                <h2>Проект Boxes</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./images/work6.jpg"
+                alt="Веб-сайт Inspiration has no Borders"
+                width="370"
+              />
+              <div class="card-description">
+                <h2>Inspiration has no Borders</h2>
+                <p>Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./images/work7.jpg"
+                alt="Издание Limited Edition"
+                width="370"
+              />
+              <div class="card-description">
+                <h2>Издание Limited Edition</h2>
+                <p>Дизайн</p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="./images/work8.jpg" alt="Проект LAB" width="370" />
+              <div class="card-description">
+                <h2>Проект LAB</h2>
+                <p>Маркетинг</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./images/work9.jpg"
+                alt="Growing Business"
+                width="370"
+              />
+              <div class="card-description">
+                <h2>Growing Business</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
