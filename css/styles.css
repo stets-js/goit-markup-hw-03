@@ -165,6 +165,8 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  padding: 10px 32px;
+  border: 1px solid transparent;
 }
 
 /*** benefits ***/
